@@ -1,0 +1,52 @@
+body {
+  background-color: #e6f2ff;
+}
+
+.listado-paises {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pais {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ccc;
+  width: 200px;
+}
+
+.pais h2 {
+  margin-top: 0;
+}
+
+.pais img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.pais .moneda {
+  font-size: 14px;
+  color: #777;
+}
+
+.pais button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
